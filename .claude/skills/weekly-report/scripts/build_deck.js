@@ -14,11 +14,12 @@ const fa = require("react-icons/fa");
 const [dataPath, outPath] = process.argv.slice(2);
 const D = JSON.parse(fs.readFileSync(dataPath, "utf8"));
 
-// 회사 색 진초록 계열 - 아주 진한 초록(배경·글자) · 진초록(주색) · 황금(강조) · 회색
+// 에스프레소 갈색 · 캐러멜 계열 - 에스프레소(배경·글자) · 커피 갈색(주색) · 캐러멜(강조) · 따뜻한 회색
+// (2026-11-02 사용자 지정. 그 전에는 진초록 계열이었다)
 const C = {
-  dark: "0E2A1F", main: "1B5E3F", accent: "C99A2E", tint: "EDF4EF", card: "1A3D2E",
-  gray: "5F6B65", lgray: "AEBAB3", line: "D8E2DC", white: "FFFFFF", cream: "D3E4D9",
-  up: "1B5E3F", down: "B23A3A",
+  dark: "2B1A12", main: "6F4329", accent: "C8853A", tint: "F6EEE6", card: "3D2619",
+  gray: "6E625A", lgray: "C2B6AC", line: "E6DCD3", white: "FFFFFF", cream: "EAD9C8",
+  up: "6F4329", down: "B8322A",
 };
 const FONT = "맑은 고딕";
 const won = (n) => n.toLocaleString("ko-KR");
