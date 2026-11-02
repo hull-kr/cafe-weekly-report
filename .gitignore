@@ -1,0 +1,24 @@
+# 설치물 - 받은 뒤 README 대로 다시 설치한다
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# 각자 PC 설정
+.claude/settings.local.json
+
+# 실제 판매 자료와 그것으로 만든 결과물은 올리지 않는다
+/[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]/
+/보고서/
+/통합_판매.xlsx
+/주간보고_*.pptx
+/tools/deck_data.json
+_검수/
+_변환/
+
+# 스킬 평가 실행 결과 (다시 돌리면 생긴다)
+/weekly-report-workspace/iteration-*/
+/weekly-report-workspace/결과보기_스킬비교.html
+/weekly-report-workspace/원본해시.txt
+/weekly-report-workspace/description-opt/*
+!/weekly-report-workspace/description-opt/발동평가.json

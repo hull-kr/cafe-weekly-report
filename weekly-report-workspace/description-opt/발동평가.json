@@ -1,0 +1,12 @@
+[
+  {"query": "1026-1101 폴더에 지점들 판매 파일 다 들어왔어. 월요일 아침 회의 들어가야 하니까 그거 정리해서 회의 자료로 만들어 놔", "should_trigger": true},
+  {"query": "이번 주 매장별 매출 엑셀 5개 하나로 합치고 지난주랑 비교해서 장표로 뽑아줘", "should_trigger": true},
+  {"query": "강남, 판교, 해운대, 성수, 대전 이번 주 판매 집계해서 지점별·메뉴별·요일별로 정리 좀 해 줘. 사장님 보고용이야", "should_trigger": true},
+  {"query": "새 주차 판매 자료 넣어놨어 ㄱㄱ", "should_trigger": true},
+  {"query": "1019-1025 주 회의 자료 다시 뽑아야 해. 대전점 파일을 지점에서 고쳐서 다시 보냈대", "should_trigger": true},
+  {"query": "보고서/1026-1101/통합_판매_1026-1101.xlsx 보고 성수점 매출이 왜 23% 빠졌는지 시간대랑 메뉴별로 파고들어서 원인 분석해 줘", "should_trigger": false},
+  {"query": "보고서/1026-1101/주간보고_1026-1101.pptx 3번 장 막대 색을 회사 금색으로 바꾸고 제목 글씨 좀 줄여 줘", "should_trigger": false},
+  {"query": "이번 주 본사 팀 회의록 정리해서 팀원들한테 돌릴 주간 업무 보고서 워드로 써 줘. 신메뉴 기획 진행 상황이랑 판교점 인테리어 공사 일정 들어가야 해", "should_trigger": false},
+  {"query": ".claude/skills/weekly-report/references/config.json 에 신메뉴 흑임자라떼 단가 6,000원으로 추가해 줘", "should_trigger": false},
+  {"query": "다음 주 지점별 알바 근무표 엑셀로 짜 줘. 강남 5명, 판교 4명이고 주말엔 해운대 인원 더 넣어야 해", "should_trigger": false}
+]
